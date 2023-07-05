@@ -951,12 +951,14 @@ h6 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  position: absolute;
+  position: center;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
   transition: 0.2s;
+  padding: 10px;
+  margin: 20px;
 }
 
 #team .member .member-info-content {
@@ -965,7 +967,7 @@ h6 {
 }
 
 #team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
+  background: #E9E7E8;
   opacity: 1;
   transition: 0.4s;
 }
@@ -979,14 +981,15 @@ h6 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: #fff;
+  color: #6E2F93;
 }
 
 #team .member span {
+  font-style: bold;
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #fff;
+  color: #6E2F85;
 }
 
 #team .member .social {
@@ -995,7 +998,7 @@ h6 {
 
 #team .member .social a {
   transition: none;
-  color: #fff;
+  color: black;
 }
 
 #team .member .social a:hover {
